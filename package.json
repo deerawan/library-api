@@ -1,0 +1,23 @@
+{
+  "name": "library-api",
+  "version": "1.0.0",
+  "description": "API for library e.g. books, authors, shelfs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "library"
+  ],
+  "author": "Budi Irawan <deerawan@gmail.com> (http://budiirawan.com)",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.1.0"
+  }
+}
