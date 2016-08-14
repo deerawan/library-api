@@ -9,7 +9,7 @@ var Book = require('./models/bookModel');
 var app = express();
 app.use(bodyParser.urlencoded({extended:true}));
 app.use(bodyParser.json());
-var port = process.env.PORT || 3000;
+var port = process.env.PORT || 8000;
 
 var bookRouter = require('./routes/bookRoutes')(Book);
 app.use('/api/books', bookRouter);
