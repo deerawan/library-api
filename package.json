@@ -2,7 +2,7 @@
   "name": "library-api",
   "version": "1.0.0",
   "description": "API for library e.g. books, authors, shelfs",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,6 +14,7 @@
   "author": "Budi Irawan <deerawan@gmail.com> (http://budiirawan.com)",
   "license": "MIT",
   "dependencies": {
+    "body-parser": "^1.15.2",
     "express": "^4.14.0",
     "mongoose": "^4.5.8"
   },
