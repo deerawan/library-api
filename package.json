@@ -16,10 +16,15 @@
   "dependencies": {
     "body-parser": "^1.15.2",
     "express": "^4.14.0",
-    "mongoose": "^4.5.8"
+    "mongoose": "^4.5.8",
+    "should": "^11.1.0",
+    "sinon": "^1.17.5"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
-    "gulp-nodemon": "^2.1.0"
+    "gulp-env": "^0.4.0",
+    "gulp-mocha": "^3.0.1",
+    "gulp-nodemon": "^2.1.0",
+    "supertest": "^2.0.0"
   }
 }
