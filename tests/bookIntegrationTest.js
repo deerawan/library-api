@@ -1,9 +1,9 @@
 var should = require('should');
-var request = require('supertest');
+var supertest = require('supertest');
 var app = require('../app');
 var mongoose = require('mongoose');
 var Book = mongoose.model('Book');
-var agent = request.agent(app);
+var agent = supertest.agent(app);
 
 describe('Book Crud Test', function() {
   it('should allow a book to be posted', function(done) {
